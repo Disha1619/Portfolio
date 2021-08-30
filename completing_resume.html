@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disha</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header id="body-header">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name"><b><i>Disha</i></b></h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <!-- <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcVFRUYGBcZGRoeGBkZFxccHRgaGiAZGRchHRogICwjGiApIBodJDYkKS0vMzMzHSI4PjgwPSwyMy8BCwsLDw4PHRISHTIqIyk1ND0zMjIyNDIyMjIyMjIyLzIyMjIyMjIyMjIyMjI0MjIvMjIyMjIyMjIyMjIyMjIyMv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYHAQj/xABIEAACAQMCAwQGBwYEBQEJAAABAgMABBESIQUxQQYTUWEiMnGBkaEHFCNCUsHRM2JygpKxJFOi8BVDc7LhwhYlNDVEY4OTw//EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACYRAAICAgICAgICAwAAAAAAAAABAhEDIRIxQVEiYQRxEzKRoeH/2gAMAwEAAhEDEQA/AOzUUUUAUlTmks1KWgFUUUUAUUUUAUUUkmgFUU0TgE55ePhVXY9pLOZ+6iuYnfGQquCWA5lfxjY8s0BcUVie1nbxLWQwQxd9MoBf09KR53UM2CSxG+kDkedTuwnaOS+geSWNY2jlaM6CSrYVGyM7j1sY8vPAiy3F1ZqaKKKkqFFFMTyhEZznCqScAk4AycAbn2CgHq8U5GapuFdpLW62hmVmxnQcq+OvoMA23LlsajcH7XW08r2/pxTqSDFMvduQM7qM4YYGdjnG9CaNJRRRQgKKKKAKKKSTQCqKQKUDQHtFFFAFNs1LIpKrQAq0uiigCiiigCiiigPKquM8et7RNdxKsYJ9EHJZvJVGWb3Cqvtv2rWxjAQB7iTIijPLzd8b6R8zttuRyFpZJJGlmcyyP67N8go5IBnYDGPlVJzUezXHjczdce7cx3NrKiW8oSRGQM7KhYHY4UZOD4EjbPKudLlgo7sxMmDGykegVOVKsDnOd6mSuWGM4wML1x+tQ4o5FYZYOvXIwRWLyuX0dMcSieyzsoZ2JeV2ZmPMvIxyTVpwntHfQW6wQvHCgLEsEDyMzEsxYvleuNgMDFU927A5yqDkHIy2++APdXlnIC37RmOORXA9vKiclFtEuMW6Za3HEryQ5kvbk+SyNGP6UwKinvOZnuCfEzyfrS6Kz/kn7Lfxx9DkN7cocpeXSnw792HvViQa0HC+2vEI9nkjuFzuJEEbacfddMDn1IOPPpmWlVcFiBnbenppQ24A88cifIdBVllmissUHqjZtxThnFCI5la0us/ZyZ0NrHIpKMCTfkHAPgM1KXs3dXSSWt6MywANZ8QTZjvlQ2Dq1AgZHzyA7c7ljVhhgCPA1qeyHbN7RlhuXaS2OyuxLPB4ZPN0+a9Ntq2hlUteTHJhcdxOm9m5bhraM3aaJwCJACpBKkqGGnb0gA2OmcVbU3HIGAKkEEAgg5BB3BB6inK1OYKKKKAKQtLrwigE0oCgCvaAKKKKAKKKKAKKKKAKKKKA8qHxXiEdvC80pwkalmPXbkAOpJwAOpIpVnfRSgmKRJArFWKMrBWGMqSDsRkbVzL6VOM95Mlkh9BMST46sf2SH2D0iPNT0qG6VstCLk6MhdX0lzNJdTevJyXORHGPVRfID4nJ6mk0UVxSk5O2ejGKiqQUA0l2wCfAE/CkwOSqkjBIBx7aitWTY6RXlANekUB5XoFAFBNAJcA7EAjw6U1NESBobRjlsMewinqKJtBoixXRB0SDS3Q/db2H8qksM7Go1w6E924wD6pPInyPQ0WzMp7t99sq3iPPzFWcbVoqn4N/9GXaMxv9QlbKsC1sxPLG7x5+LL7x4Cup185TK2zRsVkRg8bDmrqcqfjXc+ynGlvLWOcbMww6/hkXZx8eXkRXTjlyicebHxdou6KKK0MQooooAooooAooooAooooAooqu41xaK0heeZtKIN/EnoqjqxOwFAL4nxKK2iaWZxGijdm+QA5knoBuapbC5k4gkqy2xis5E0prdlmlB5tpX1EI5ZOT7DVHBEJXi4hxUiMNIq2dowZhEznEZZAMySnny9EbnGMLZdsOPyBxZWZH1mQZeTmttEebt++fur7/AAyLKNukVvaTtGlnG9nw5I1kjQtK4X7O3Xxbnrlbopzk888jzO01kGSRmaSQ6nZiSxJ8SedaLtZbR28EVlHn7V9crHdpAmGZnbqWfH9OKz14xKhV9ZzpHs+8fhWOSV1FHXjxqGxCESENvhScb7MeWfdUmo1k+QcbINk8wNiffUmuefdG0erGbuTSjHqBt7TsKLZ8opPMgZ9vWpfDrH6xdQQYyryBpP8Apx+k+fbjHvqOtsYnlhbnFK6b9QCSp94INW4/Cyt/Khder40AUiWQKMnYD5Z2qhccbf8ATwpNANekUAgOCSMjI5jwpVMyod2QDXjr18q9t5g4yNjyI6g9RStWiL3R7NEHXSw2/t7KiwuwzGzYYD0G8R0qdUW/jJXUvrJuPzFWg/DIkvI5bTagc7Mpww8D+hq07McbubO5PcjvI5Ms8Gcayo9Mx+DhRkfiAxvgYpGcApKOTABh7eRPsO1SZJ2iZJk9eJ1kHnpOWHsIyK0g+Mv2UkuUaZ3rgvGIbuJZoG1I3PoysOasPusPD8iDVlXNr9jbSDiNiC6SKGuoF2E0ZGRIg6SKCT5/HO74VxGK5hSaFg0bjKkfAgjoQcgjoQa6TjnBxJ9FFFCgUUUUAUUUUAUUUljQHtc7Fyl9cvezsBw+xLdyDnTLKnrzEfeC8l55PLfIN525vnS3WGLPfXUiwR4ONPeZ7xsjlpQMc9DiqWXhiTTwcLjH+Ds0R7rliSTnFG3mTmRh1zQlEKa/YL/xa5QtNIe74Zan7gk2ViPxuPSY9F2zuAJ3AOFGFGaRtc8ra55Dzdz0Hgq8gOXxqPazC+vXvG3ggLRWg6HBxNIP4iNIPgPKtDxe5jiiaUY9BWY48FBJz8KrL0dWKPHb8nLu094Jr+Z19SLTEn8m7/6y1Ut5KAH29JUyD4atvypdjnQGb1nJdj4ljk/3pvQGklU9VT4b/nXO2nJt+DZKkkSYkwqjwApdFLtLF7mZLaPZn3kb/LiHrsfPoB1JHjVEnJlm+KNb9GXDdXeXrDZ/s4v4FPpsPa4x/IajfSJwvu5VvVB7uTEc37rjaNz5EejnyXxrTf8AG7eALbW8ckzRKEEcK69AX0PSf1QQQc75G+aiX3Frp0eOXhUjROCGAmiZip54Qb58OvLrW9f4MOWznpNIkjDAqeRFRTcLHI0R7wKD6PfIUkQHksi9CPEbHntyE2ueUHFm6kpIZt3G6Zyy4ByME+dPA1C4hGQBIuzLz816/wC/bT8U+4VwUfSG0nqrDKsp+8pG4IqXG1aIUqdMeNR3j0vrGADs+Tgbcj7akU4INQ0kaiw2Xy8T+n+zEXTJY3RTNrMynupVAYciABkDbIxtt4VIZMfkfEUlFxYjK1ZDe2xGyZz6xHl1FOW7a41J6qM/nTjcj7KY4d+zT2H+5qbuNv2RVM6D9Ht5rtVjbcwyNG38IOpPdpYD3VMhuF4bdgqf8Fdvh1+7b3DbKw/DG/I9AfAAA5bsHcaLuWPpJGrjw1RnSfeQ/wAq3F/ZRzRPFIMxuMN448R5jmPMCulS8+ykoKUaZtaKyXYTijvHJaTNqntGCM3+ZGRmF/5l2PmN+da2tDhap0FeA5pOc0sChB7RRRQBSRSq8IoCk4+sUQ+uy5P1WOVlGdssoBIGPWIGkfxGsdNLLb8LX7t5xGTnvlWn3JPUaI/gfCrv6Qh3q2tmP/qrmNXGecUf2kv/AGr8aruJv9Y4qR/y7KEADHKafc46bRhR5UbNMceTSLaKwigiiijxpjUKMdQBzPmTv7zWd7d3BSxlA5vojH87AN/pzWjXnvWX+lIKIrVF+9NqO/MIjfmwrP7O1/FcTEquAB4VEuvQZZeg9F/YeR9xqZS7Kya4lEKusahC8sr40xRDYk5wMknG561zQtyJlpDBdiVSNTJJIcRou5Yn+w65rfWPZWaC3WKJ1Eszqbub7yxgElI89Puj2k7Z2hdjeCpacRkiWRZVa1WSKTAyFMmkgEE9RzHPatnxriiW0RmkV2RWUOUXUUViAWI/COuN62UeOkZSly7HOF8Nit41iiQKige04GMsebHzNTKwfDb6+vJJo4LlFtklbF0I1LupwwjjU+idIJBfHgaspOAXkY12/EJXcb6LhUeN/I4AKA+IqXH2yEy2412ft7vT38YYoQVYEqwHMrqG5U9V5e+sdxf6PpEJaykBX/JlJ28kk/JvjVlwjjNzLcxuEcIS0N3AQD9WlQF0dTjJR+Wc49u1bOodrTC9o4hd2s8fozW0yf8A4y6n2OuQa3HAOzKXPDreO8jYNGXMe5SRULPoBPMDSQdJ8FzyrcZqt7QXEsdtI8CF5cARqBn0mIUHHgudR8gaR10S3fZhuIfR/cR728yyL0Sb0XH86jDe8Cq5uEX8UgP1N22AOh42B2API7b1pbKe9uP8NBcaUg9Ce8ZFdpZebpEvqgLnGo+XvmvwC9jGuDiEjyDfRcKjxv5HADJ7RUuK80OTM8exU0sPfPGEn1sUiMgxoOn1mGwbIJ26efLOcSglt5e6uF0P9xh+zkUcih/uOe+9bfs72sdnaO5LG5e4Ma20cY/w6KAGYsT6SfeLEnyrS8es4pbeRZY1kQIzYYcioJBB5qfMb0kr0yIuto4vfSYGhfWfYfmaeijCqFHQYqda9lG+px3KXCvO0XedwwXU8YGWCb6sgDPLB5bVBikDKGHIjIrLJHiqRrCXJ2TeBzCO+tXJwpkMbeYkUqPniut3aqMacZ8q4ndSaAkn+XJG/wDSwNdkXBI8M/KtIP4IlL5FFxKX6pd216NkJEFz/wBOQ/Zsf4Hwc+BropNZTtDw1JYHi2+0Ugdd8ZU4PgwBqd2J4mbmyhkbPeAFJM89cZKPkdMlc++to9HJnW+S8l+BSqKKkwCiiigCiiigMbxEiTjVqh/5FpNL7DKyw5+ANU3Y1u9SW5J/+JuZZAT0TV3aD2BU+daHtHY9y13xDXuti8apjkUMkudWepIGMdKruz9kIrK1Xr3MZI8CVDH5k1WXR0YK5FvdwKuMdelc6+kI5ntF8Fmb492PyreqMkVhvpGiC3kAGf2LHfzfH5VR9NnS9UmZutP9G8KPLepIoYMkQKsAQyfaahg7EZxn3Vlo3DDIO2SPeNjT9lfSW8yXEOC6gqyHZZIzuVJ6HYEHoQPZWGN06YmrWjb2HCo7bi4WFdCSWbtoGdKsJF1aR90HngbZz41c8e4G07JJFO8E0asquoDqytjUrxtswyKzFh2ljuuJ2jLHJG3dTI6yAbEgSLpYHDD0D4eytvLdEEgAbeNbSbVMzjBy0iB2S4Q1pZxQPp1rqLlSSCzMzHBIBPMDl0q6qCLpvKpUEuoZxiqXbLPG4orbPhBjvJ7gMNM0cQKgHOuPUNR6eqQKmcQ4jFAmuaRY0zjU5wM+A8T5CpVZHtU6RXdrcXClrZEkXVpLLFK2ko7qPEDAODgj2VZbZR6NajAgEHIIyD4g8q9NJjcMAynIIBBHUHcGlVBJU9mOEm1to4WYO66i7jPpM7MxO+/X5VbUVFkuiCQBy8ahsmMW9IzXE+ycst5NKlwYIpo41lEagySlcqw1EfZjTjcZz1FXXF0WKxmVNljt5AuSThUjIG53Ow608LpvL4VXdrbr/wB3XTcvsnX3uNA/7qspW0iZY3FWyJ2F4DbxWsM4jBlkiR3kbdgHUHSpPqoFwMDoK5jYY0ej6up9P8Oo6flWlvu1zPax2lrG6KIkjklcBfRVVVhGuc74I1HGPDqKJEAUBRgAYxVcstUMa3ZH4kMxSD9012WDSYYnH340bHtUH8649dD7N/4T/aulcGvUS1tDI4XvEhjUnO7uo0j34qcf9S7/ALWXAqN2LHdXfELUeqJI508xOvp4/mT51Y3VuFAIJ59ao+FnRxhD0ls3U+bRyKw+TGtY6Zlm+UbR0CiiirnEFFFFAFFFFAZn6RpNPDLs/wD2iP6iF/Ootmnoxrn7qj5AVI+khc8Lu/8Ap5+DKT/akGLCIQchlB+QP51WR1fjNbHbmAJgg5zXOu3efrkJJ27lh/r6V0DJYjJz03NYf6SbfRc2hznVHKP6TGf/AFVSXTN3qkzK26YGMgnLcvM5+NOVFsDs3lI396mc/b/euaf9mWj0eW933M0E55RSoWPghOmT/STXa5IVO5HvFcQljDKVPIjBro30f8d76AQSH7eABWB5vGNkceO2AfP2itIbjXozlado04tl8PmadUY5V7RUkNt9hRiiovErFZ42jcuFbG6OyMCCCCGG43AqSCXWat795OKSJG5MMNvplAPod875UeGoKDnw3FVnGOGLaxg3HFL1ISwTnqbcEgGRELAYB3qz7FzxNG620DRW6sO7lfUDcEj03ww1HoNRO/ljFWrVlTSUh4lPMUuiqF06GPqq+HzNZL6TbkJaJANjNKi4H4UPeOf9Kj31smYAEkgADJJ2AA5knpXH+0fFxeXRkX9lEDHD+9v9o/8AMdh5AVK1sW5aINKG29MzhtPo88j4ZGflThNYGw3d/s3P7rZ+FbDjsGjhVk4O4NmR5EaeXxrF374jc/umtxx5GeHh1sNy8tuCD0SNQXx7Nq6MPRnPs1x3POqy/h0cU4YQfW+tq3/6gw+Yr3h180slyAB3UMixIwzl5FXMuemASAMeBpi6cninDFJJwbo+wCIj8xWkdMrkdwbXR0SiiirnCFFFFAFFFFAU3a22MljdIObQSge3QxHzxWf4DO0tvAW5mKMbnkdIB+dbN8MCDyO3xrn3ZI4gMXJreaWE9MGNttug0spFVl0dH4720aG4tymDnNYb6SQSLWQnOmVkHl3i5/8A5/Ktq7s2ATnwrNdrYlubGdomDmGQ5wGyskJzIuCAc6dW/XIqtWdL632c6ttpJF8ww9/P51LqDM4BSUcsYb+FuXwNTq5Z+yY+huaXTpz95gPec4r300dZInMcqeo4/sfEHwNIvIyyEDnzHtG4p22lBEZxlpPVHQHGd/ht/vMxtU0HXTNtwH6Qo2xHer3MnLvBkxv555p78jzrcRSK6hkYMpGQykEEeRGxrjNzER6MqqwPku/vxnIqPaiS3bVbTyRZ3wpyp/iQ7E7dc1opxfeinB+DuNFctte3N8mzpDKPHDRsfaR6Pyq84V2wu54+9ThrOmSupLiPmpw2zKDzqyV9FXrs21FZb/2jvTy4VN75oh86o73t/dJI8X1JI5IyAwkm16SwDDOlQDsQdjTixZ0WqvjXaC2tFzNIqnGyD0nb2IN8eZ2865nfdpb+YYacRKeawrpP9ZJYe41URWahtW7OTuzHUxPiSevnVXKK8k8ZMuuP9p5777NFaG3PNc/aS/xkcl/dG3melWigbAbDlUiNlXOcdBq5gltsAbZ25jz2pqR8knxqk5Nl4JeCJft6I8S6/wB8/lUmolyCXTb0Vy5PTblvTliSY1J5nJ+JJFQ18USn8jy+jLqIxzkZEHtdgBXS+1HDmiK3aapJIo3jgjVM/aylUDk55AbHyzvWG4Fbd7ewJ0jJlfyEfqH+srXVWdnIBOfD31vj1EhptldwLh/1eCOHOojJc/idzqdvexPuxXkMOeMwLnJjtJZD5d46Rj+xq1ntygBJBqv7JqZL69nJ1aBFAvloBeQZ8csP98rx7M8zXDXRt6KRilA1c4j2iiigCmyc0sivAKAAK5/LEYeKzxb6LqNJox07xPs5QPM4VjXQax30h2rLHFexjMlnJrOObRN6My/04b+WlWXxy4yTJU0BTBPxFZCyuxDfOmoNBfYlhYEFDKBpkAI2OoYPvUda1Yu+9VWBBVgCuORDDIPwrDXXDFhB4fdExxM5ksbjOBGxJYJq+66knG+4PTaqI7W3qyl7QcFaymMTr9jISYW5rg7tGT4r4dRiotdAs++uIntOIRB9GMSjGiYb6XBG6SDrjHPNUl/2AnjGqCZWTok2cr/Oo3HurOePk7Qi2lsyVvKdTI3rA5Hmp5Uv1HX8Bxg/hffY+GRy9mKul7D3bsGeSGMr6pTvHJ8jkAYqNccIvYfXtZGH44h3iMPHA3A9oFRwa2g/sWl2siCVx4hU655HV8KhO+Tn4AcgPKnbfs/eysZY4TGAvqykJrxyCpzU89zgefOq6S80OY5EZZAcFNmOfAEHBqkoS8ImMkux6aQIpY8gM11XsRw9oLGFHGHILuDzBkJfB8wCB7qynZfsdJK6TXad3GhDJC3rOw5Fx91Rz08z1wOfSqtGPFUUlK2Fcp7d2hivy+PRuI1YHxeIaHH9Ok++urVU9o+Bx3kJjc6WB1RyDnG45EeI6EdQfYan6ZHWzkoFOB9HL1iccsj3+GOZHXlXnFLSazbTcxkDJCyrvHJ7D0ON8HfblT/D+H3V/q+rooUD0pZGVQSB4DJyem2BVI45X0Xc00VkapqCAse73JOPSduZPi2B7htUgmlf8LuYfs2s5ww56U1gnx1rkGrK07G3lypDaYB91XOpn/i0n0F+flVnjlKWwpJLRngXkVsHCM2B46BzPvqTLIqLk7AcvyAq9PYq+UhGNso8Q0h28l01oOA9joonWSRjNKPVLABEPiidD5knyxU8Le+iVdaE9h+CPEjSyLiWbHo/5aD1F8jvk+4dK1csLJjPxFePGyEZ9xr2WZnwD7gK0LL66GOIX+iN5JD6Masx9igk1I7AWhSyjdhh5yZpNselLuMjx06az3am2aZ7ewHO5fMmCfRgjw8hJHLOAo8dxWy4RxSOczJGCBBKYicAAsqqWC4PIatPtBq0TkzyTpIs6UBQBXtWOcKKKKAKKKKAKaljVlKsAVYEMDyIOxB91O0UBzTgQa1mk4e5OYfTtmPN7dydO/Uo2VP/AIq+4iiToY5UR0PNWXIJ6HfrSu23A3njSe32urcl4v3x9+M+Tj545ZNQeD8RW4hSZMgHIZTzR19dGHQg/ketUkvJ24pqSp9oftOGLbxrHGhWNdlBZmxkk4yxJ6+O3KpclwzLg4/WvZbksMED9aaaNgMkHFQapexTQtjVjal/WG06fLHnih7oldOB7aoe1l68FpJIgOt8Rx8smSQ6Vx7Nz7qfoeLkUfEbyS9leKORo7WJtMjocNM49ZQ3RByOOfv2i8Qt7O3jWN4QsUnos4XIU7adbesCejb8q1HBeGxR28UK4PdoATyJbm597En30q54XqBXZ1IwVYDceB6GrXR5eTK5St9FLwzil3aqAv8AjbfbR6QEqr00v6sgHnufLG9vF2+suUrSwt+GWKQEe9QR86zkvZmSIlrWV4cnJjYa4z44B9X270kTX4GGigl81dlz7Q3X/ftOKZrHM15v/Rqn7d8OAz9aU+QSQn4BaiXHbbWMWdtLKTyeRe7jHnlvSI8sDNU/D3uS/wBrBFGmD6r6mz0xgYxRf8PuJXIFwY4j92NPtDtv6ZO2/UVHCJDzvr/o1c2k7Frmci5uFH2UYwscRPRFJ+LHc48ajWPZ2SMd6kzR3ZJbvI9kBO+gpjDJ7R+laLhfBu6jEcakKCTljuSdySeZJq0i4eo9Y58uQq10ZPJK7sjdm+MPdo2tQs8baJUGwDDkVz91huPfzq5UsjedZa6uFteIQTR40TjuJgOWrnC3tz6OfCtVIxZuW/QCoZ6OKfONg8jO3LfoBXhVkYZ2PShSyNnG48aVNKXI29gqpr9Lo8mmLkfIDzpu4+zBdyFVQWLEjAC7kk+VLIZCCRg8xVDxV24jcCxTaGPD3sinkvNIwejPjfwAPgRUpWVlLgr8ES04m0UFxxeVftrgCGyjI37vOIQF5ku2ZCPBcitr2P4QbS0jiY5kwXlbOdUjkvIc9dzjPgBTHBrmG9HeLAphglxayHBDmMaDIi49FQcqp3zjO1aOrnBJ2e0UUUKhRRRQBRRRQBRRRQHlYHtRw2Szle+t1LQvg3kK+X/OQfiAzqHUb+JG+ooWjJxdox9tMssayIdSOMqw5MP99KmS3RZdOPaaouL8Hl4ezz2aGS0c6p7VfWiPWSAeHinw29Wbw++SeNZYnDo3Jh49QfAjwNUao7YTjNWSShxnBx41nePN9YvbS2PqxK87+0fZxfAk1qnusppxvjFYe0ZnvbyYZxG0cKkdNC6nH9TUiU/Ik1B2WfEY5IkZ1QyFQSAuxbHTyNN8J4+sqao2DAesrbMh8GHMGpkvGBHG7yD1EZsj90E7j3VX9juGILOJmA72Qd5IwwGJkJcavYGxvU+DzaXGy5TiK9QR86c+tRnmR71P6VHfh3g3xFNNYP5H31BUm9/F+7/T/wCKSb6Mcsn2D9ah/UJPAfGnF4cx5kD4mgPX4j+Ffj+lUq8d72buY9UuATIyepHjkD+Ik7YH61fpw5RzJPyqgs2jtuIyxqAI5oUkAXGBJGSjgDoSDqNSi0Utiu0fCHktJTydF7xMc9Ufpj2HbHvrQ8Gv+8jimA/aRq2P4gCR7jUK4vS3ogYB2Pic1B7CSH6r3JyWglliOefouWA+D491Q+jr/El3FmnnlLty8gK8BKsCRuOhoibQwJHLpVPxvjrvKLWzjEtyRvn1IQfvyt0A/DzPvAJKztbUf0HaLjMjOtpaqGupAdI5rEhwGkkOPRA6A8z47Axo+Hj/AOU2bnSPT4ldfeOv1kDf5knLn6KjG++GoIWt3axsX72/lw15eMMiEHmT4EckjHLma3HAOCRWcIijyd9Tu27yOfWdz1Y/oKujiyT5fon2lskaLGihURQqqOSqBgAVIoooZBRRRQBRRRQBRRSSaAVRSNNKBoD2vK9ooDysZxvsi6yNc8PdYZm3liYfY3HX0lHqP++PPxJrZ0UJTado51YdoFZ+5uEa2uBzikwNXnG/qyLz5eFVvYa6UwNIwx30s0hJ662IGfcorovGeC291H3dxEsi9MjdT4qw3U+YIrEXXYu7tR/g5FmiHKCYhXUbnCSgYPsYD21FFsmRzjRE7bW4+raIzhppI41A3BMjDOPcDU76s0YA0kBdgRywNhuKoeI3xjktxcxvAI5S7d6PQ1qp0aH5HcncbHlWoteMRyDUCGB+8hDL8jR6OeSaSRHS7kH3s+3Bp0cRfwX4H9al5ib8P9jR9SjPIfAmoKEU8RbwX5/rSGv3PUD2D9am/UE8D8aO4iXnp95/U0BWtK7bEk+X/iqbjlq0c1nMRpHfd2T5SgruPAECtWbqNeXwUVme1/E0khaJHjWXKNGCwLAqwIOOm2d/zqUXj2adIUjGT8T+VZ7gXFI7e8vzIypGTFICxA9ddL+/UvLrTscV/csBFb6UPOa4bSo/hTGtvI4xV1wnsBAj9/dMbuYci6qEXG4CRDbb97PupRriuLtld9auuJH/AAqtbWmPSupFw8g69zGen758+oxUe0nXD2XBwFRSfrfEHOpVPNyHP7WXGTnkM7YG6+9o715U18Rk+o2X3LVGBubkDo+nOlTt6K8snJGA1O2HBZ79FjeI2XDUxotl9GWccwZCN0U88cyc89mqTRyb7Lf6P3tu7ljtI3MSOAbpsf4qXfvGB5tg49LlvtyrY0xa2yRoscahUUAKqjAAHIAU/Qoz2iikk0IPGPxpQpsDNO0AUUUUAUmlV4RQCaUBQBXtAFFFFAFFFFAeUjOaWRXgFANywq6lXUMp5qwBB9oO1Zm8+j7h8h1LD3L/AIoGaLH8qnT8q1dFAYOX6PpF/Y8QnXwEqRy/PCmmD2N4gOV5A/8AFbsv/a5rolFAc5HZLiXW5tR7IZD/AOqnF7EXjevxBVHhHbLn+pnP9q6DRQa9GIi+jmE/t7m6n8VaXQn9KAH51oOFdnbS2OYbeNGwBqCguQNhlzlj8at6CKATistxaPiksjRwGC1gBwJjmWVhtuqYCr1GDv51qwKKAzHBexlvA/fMXuLg7medtbA/ug7JjO2N8bZrT0UUB7RRRQCSaQN6WwzXoFAAFe0UUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUB5RXtFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAf/9k=" > -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIV1ppwChzluddwMfC-9jCDE7uSri4SAqhw&usqp=CAU" alt="">
+            </div>
+
+            <div id="about-para">
+
+               <p>Hello! My name is <b>Disha</b>.I am a student from Chitkara University pursuing my BE in CSE.I have a knolwedge in HTML,CSS,Javascript and Java.
+             </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-blue">
+                        <div class="skill-name">
+                            <span> C </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-orange">
+                        <div class="skill-name">
+                            <span> HTML </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> Java </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> C++ </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> Work Experience </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Designation </h3>
+                        <h4 class="experience-company-name"> Company Name </h4>
+                        <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
+
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Designation </h3>
+                        <h4 class="experience-company-name"> Company Name </h4>
+                        <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
+                        </div>
+                        <h3 class="experience-designation m0 m-blue"> Designation </h3>
+                        <h4 class="experience-company-name"> Company Name </h4>
+                        <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
+
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap"></i>
+                </span>
+                <span> Education </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> 10th </h3>
+                        <h4 class="experience-company-name "> Patel Public School </h4>
+                        <h5 class="experience-duration m0"> 2016 - 2017</h5>
+
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> 12th</h3>
+                        <h4 class="experience-company-name "> Patel Public School</h4>
+                        <h5 class="experience-duration m0"> 2018 - 2019 </h5>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue">BE CSE </h3>
+                        <h4 class="experience-company-name "> Chitkara University,Punjab </h4>
+                        <h5 class="experience-duration m0"> 2019 - 2023 </h5>
+
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-th-list"></i>
+                </span>
+                <span> Portfolio </span>
+            </h1>
+
+            <div id="portfolio-container">
+
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000026_1550237353_project_2.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000029_1550237386_project.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000027_1550237355_project_3.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000028_1550237365_tree.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
+                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rajpura, Punjab</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>9999999999</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>myemail@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/manisha-khattar-b5663641/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://stackoverflow.com/users/5608414/manisha?tab=profile" target="_blank">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://plus.google.com/u/0/103030702784925512939" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/manishakhattar54">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.quora.com/profile/Manisha-Khattar" target="_blank">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
